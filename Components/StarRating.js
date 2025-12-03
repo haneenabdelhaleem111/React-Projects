@@ -9,7 +9,7 @@ const containerStyle = {
 const starContainerStyle = {
   display: "flex",
 };
-
+//specifying the type of the props so the user doesn't enter wrong data
 StarRating.propTypes = {
     maxRating: PropTypes.number,
     color: PropTypes.string,
